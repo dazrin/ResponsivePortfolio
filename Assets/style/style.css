@@ -1,0 +1,53 @@
+/* Main Title */
+h1{
+    font-weight: bold;
+    font-family: Georgia, Times, "Times New Roman", serif;  
+  }
+  
+  /* Sticky Footer */
+  footer {
+  
+      border-top: 5px solid black;
+  
+  }
+  
+  /* NavBar */
+  .navbar {
+      border-bottom: 5px solid black;
+  }
+  
+  /* NavBar Title */
+  .navbar-brand {
+      font-weight: bold;
+      font-family: Georgia, Times, "Times New Roman", serif;
+      background-color: black;
+  }
+  
+  /* NavBar */
+  .follow {
+      font-family: Georgia, Times, "Times New Roman", serif; 
+      font-size: 14px;
+      font-weight: bold;
+      padding: 1px;
+      margin-bottom: 1px;
+      color: grey;
+  }
+  
+  /* Font Awesome Icons */
+  .fa {
+      font-size: 30px;
+      padding: 2px;
+      color: silver;
+  }
+  
+  .fa-twitter:hover {
+      color: blue;
+  }
+  
+  .fa-linkedin:hover {
+      color: darkblue;
+  }
+  
+  .fa-github:hover {
+      color: darkslategrey;
+  }
