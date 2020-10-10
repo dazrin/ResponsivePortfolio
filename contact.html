@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <!-- My CSS -->
-        <link rel="stylesheet" href="Assets\style\style.css">
+    <link rel="stylesheet" href="Assets\style\style.css">
 
     <!-- Bootstrap 4 CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -19,7 +19,7 @@
 <body>
     <!--Nav Bar-->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Dazrin Tioseco</a>
+    <a class="navbar-brand" href="index.html">Dazrin Tioseco</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -42,7 +42,7 @@
       <section class="row">
           <!--Grid Column-->
         <article class="col-sm-8">
-            <!--About Me Card-->
+            <!--Contact Card-->
             <div class="card text-white bg-dark px-4 py-4">
                 <header class="card-header">
                     <div class="page-header">
@@ -54,34 +54,34 @@
 
             <!--Grid column-->
             <div class="col-md-9 mb-md-0 mb-5">
-              <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                <!--Form-->
+              <form id="contact-form" name="contact-form" action="https://formspree.io/f/{form_id}" method="POST">
 
                 <!--Grid row-->
                 <div class="row">
 
                   <!--Grid column-->
                   <div class="col-md-6">
+                      <!--Name Field-->
                     <div class="md-form mb-0">
                       <input type="text" id="name" name="name" class="form-control">
                       <label for="name" class="">Your name</label>
                     </div>
                   </div>
-                  <!--Grid column-->
 
                   <!--Grid column-->
                   <div class="col-md-6">
+                      <!--Email Field-->
                     <div class="md-form mb-0">
                       <input type="text" id="email" name="email" class="form-control">
                       <label for="email" class="">Your email</label>
                     </div>
                   </div>
-                  <!--Grid column-->
-
                 </div>
-                <!--Grid row-->
 
                 <!--Grid row-->
                 <div class="row">
+                    <!--Subject Field-->
                   <div class="col-md-12">
                     <div class="md-form mb-0">
                       <input type="text" id="subject" name="subject" class="form-control">
@@ -89,14 +89,13 @@
                     </div>
                   </div>
                 </div>
-                <!--Grid row-->
+                
 
                 <!--Grid row-->
                 <div class="row">
-
                   <!--Grid column-->
                   <div class="col-md-12">
-
+                    <!--Message Field-->
                     <div class="md-form">
                       <textarea type="text" id="message" name="message" rows="2"
                         class="form-control md-textarea"></textarea>
@@ -105,9 +104,16 @@
 
                   </div>
                 </div>
-                <!--Grid row-->
-
               </form>
+
+              <!--action="https://formspree.io/f/{form_id}"
+                        <div class="row text-md-right text-sm-center">
+                <div class="col-12 col-sm-12 col-md-6 mx-auto">
+                    <button type="submit" class="btn btn-primary mb-2 hidden">
+                        SUBMIT
+                    </button>
+                </div>
+            </div>-->
 
               <div class="text-center text-md-left">
                 <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
