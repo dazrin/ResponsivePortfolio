@@ -15,16 +15,19 @@ This is a responsive portfolio website made using HTML, CSS, and Bootstrap 4. Yo
 ## Screenshots
 
   -Big
+
 ![AboutMeBig](https://i.imgur.com/YjOufIr.png)
 ![ContactMeBig](https://i.imgur.com/uAUNM24.png)
 ![PortfolioBig](https://i.imgur.com/2fLU2uC.png)
 
   -Med
+
 ![AboutMeMed](https://i.imgur.com/NTndOOd.png)
 ![ContactMeMed](https://i.imgur.com/fHYnk5p.png)
 ![PortfolioMed](https://i.imgur.com/fOqNLjr.png)
 
   -Small
+
 ![AboutMeSM](https://i.imgur.com/w01hRTS.png)
 ![ContactMeSM](https://i.imgur.com/g4YwYFQ.png)
 ![PortfolioSM](https://i.imgur.com/HrgMy0s.png)
@@ -34,6 +37,7 @@ This is a responsive portfolio website made using HTML, CSS, and Bootstrap 4. Yo
   -  If you're viewing on a mobile device or a smaller screen, you will find a hamburger dropdown menu found on the top right of the page, which will reveal the buttons to each page. Simply click on them to navigate!
   -  You can also click my name on the Nav Bar to navigate back to the About Me page
   -  You will notice icons to navigate to my social media found on the bottom portfion of the page. Clicking any of the icons will bring you to my social media. Please follow if you are interested!
+  - You can use the contact me form to directly send me an email; simply enter required fields and press the submit button
 
 ## Credits
 -  Credit to Anas Qazi for sharing how to make the contact form functional!
