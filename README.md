@@ -12,22 +12,28 @@
 ## About
 This is a responsive portfolio website made using HTML, CSS, and Bootstrap 4.
   You can launch the website by clicking [here.](https://dazrin.github.io/ResponsivePortfolio/index.html)
+  
+Sizes supported:
+* large - `> 980px wide`
+* medium - `769px - 980px wide`
+* small - `641px - 768px wide`
+* x-small - `<= 640px wide`
 
 ## Screenshots
 
-  -Big
+   Big
 
 ![AboutMeBig](https://i.imgur.com/YjOufIr.png)
 ![ContactMeBig](https://i.imgur.com/uAUNM24.png)
 ![PortfolioBig](https://i.imgur.com/2fLU2uC.png)
 
-  -Med
+   Med
 
 ![AboutMeMed](https://i.imgur.com/NTndOOd.png)
 ![ContactMeMed](https://i.imgur.com/fHYnk5p.png)
 ![PortfolioMed](https://i.imgur.com/fOqNLjr.png)
 
-  -Small
+   Small
 
 ![AboutMeSM](https://i.imgur.com/w01hRTS.png)
 ![ContactMeSM](https://i.imgur.com/g4YwYFQ.png)
