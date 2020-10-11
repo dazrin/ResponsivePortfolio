@@ -26,7 +26,7 @@ This is a responsive portfolio website made using HTML, CSS, and Bootstrap 4. Yo
 
   -Small
 ![AboutMeSM](https://i.imgur.com/w01hRTS.png)
-![ContactMeSM](https://i.imgur.com/g4YwYFQ.png
+![ContactMeSM](https://i.imgur.com/g4YwYFQ.png)
 ![PortfolioSM](https://i.imgur.com/HrgMy0s.png)
 
 ## Usage
