@@ -10,7 +10,8 @@
 * [Contributing](#Contributing)
 
 ## About
-This is a responsive portfolio website made using HTML, CSS, and Bootstrap 4. You can launch the website by clicking [here](https://dazrin.github.io/ResponsivePortfolio/index.html)
+This is a responsive portfolio website made using HTML, CSS, and Bootstrap 4.
+  You can launch the website by clicking [here.](https://dazrin.github.io/ResponsivePortfolio/index.html)
 
 ## Screenshots
 
