@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- FontAwesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/662aff2c8d.js" crossorigin="anonymous"></script>
 
     <!-- My CSS -->
     <link rel="stylesheet" href="Assets\style\style.css">
@@ -14,74 +15,204 @@
     <!-- Bootstrap 4 CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <title>My Responsive Portfolio</title>
-</head>
-<body>
-    <!--Nav Bar-->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="index.html">Dazrin Tioseco</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-      </ul>
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <li><a class="nav-link" href="contact.html" tabindex="1">Contact</a></li>
-                <li><a class="active nav-link" href="portfolio.html" tabindex="1">Portfolio</a></li>
-                <li><a class="nav-link" href="index.html" tabindex="1">About</a></li>
-            </li>
-        </ul>
-    </div>
-</nav>
+    <title>Dazrin Tioseco - Portfolio</title>
+  </head>
 
-    <!--Beginning of Container-->
-  <section class="container px-4 py-4">
-      <!--First Row-->
-      <section class="row">
-          <!--First Column-->
-        <article class="col-sm-10">
-            <!--About Me Card-->
-            <div class="card text-white bg-dark px-4 py-4">
-                <header class="card-header">
-                    <div class="page-header">
-                        <h1>Portfolio</h1>
-                        <hr>
-                    </div>
-                <article class="card-body" >
-                    <img src="Assets\Images\dazrin.github.io-AboutMe350.jpg" alt="About Me Webpage" class="img-fluid img-thumbnail rounded float-left px-2 mx-2 my-2">
-                    <img src="Assets\Images\daftpunk350.jpg" alt="A Daft Punk Fanpage" class="img-fluid img-thumbnail rounded float-left px-2 mx-2 my-2">
-                    <img src="Assets\Images\myles&sherman350.jpg" alt="A webpage featuring 2 cats" class="img-fluid img-thumbnail rounded float-left px-2 mx-2 my-2">
-                    <img src="Assets\Images\scratchgame350.jpg" alt="..." class="img-fluid img-thumbnail rounded float-left px-2 mx-2 my-2">
-                    <img src="Assets\Images\boothedog350.jpg" alt="..." class="img-fluid img-thumbnail rounded float-left px-2 mx-2 my-2">
-                    <img src="https://via.placeholder.com/350.png/09f/fff" alt="..." class="img-fluid img-thumbnail rounded float-left px-2 mx-2 my-2">
-                </article>
-                </header>
-            </div>
-        </article>
+  <body>
 
-    </section>
- </section>
-
- <footer class="bg-dark text-white mt-4 fixed-bottom">
-    <div class="container py-1">
-        <div class="row align-items-center justify-content-center">
-            <div class="col-lg-12 col-md-12 text-center">
-                <h5 class="follow">Follow me:</h5>
-                <a href="https://github.com/dazrin"><i class="fa fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/dazrin-tioseco/"><i class="fa fa-linkedin"></i></a>
-                <a href="https://twitter.com/dazrinDev"><i class="fa fa-twitter"></i></a>
-            </div>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Dazrin Tioseco</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+          </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <li><a class="nav-link" href="contact.html" tabindex="1">Contact</a></li>
+                    <li><a class="active nav-link" href="portfolio.html" tabindex="1">Portfolio</a></li>
+                    <li><a class="nav-link" href="index.html" tabindex="1">About</a></li>
+                </li>
+            </ul>
         </div>
-    </div>
-    </div>
-</footer>
+    </nav>
 
-    <!-- Optional JavaScript -->
+    
+    <main title="Projects">
+      <!-- Main Body goes in Container -->
+      <div class="container main">
+        <!-- Card content Projects-->
+        <div class="card mt-2 col-lg-12 col-xs-12 shadow">
+          <div class="card-body pt-2">
+            <h2 class="card-title border-bottom pb-2 text-info"><i class="fas fa-briefcase mr-2 text-secondary"></i>Portfolio</h2>
+            <div class="card-deck">
+              <div class="row row-cols-1 row-cols-md-2">
+
+                <div class="col mb-4">
+                  <div class="card h-100">
+                    <div class="card-body">
+                      <a href="https://github.com/ivanduranic/date-night-planner" target="_blank">
+                        <img src="Assets\Images\datenightplanner.png" class="card-img-top w-50 float-sm-left mr-4 btn mx-auto d-block  zoom-less" alt="Date Night Planner App">
+                      </a>
+                      <h5 class="card-title">Date Night Planner</h5>
+                      <p class="card-text">A web application to help users plan their date nights by helping them find a theatre close to their location, a movie playing at that theatre, and a showtime to watch at. A map is displayed to help guide the user to where they should go, and displays their information to the screen. Uses Mapbox' API for geolocation data, and Gracenote's API to generate a list of theatres, the movies playing and their showtimes. Firebase is used for store login data.</p>
+                    </div>
+                    <div class="card-footer bg-transparent">
+                      <a href="https://ivanduranic.github.io/date-night-planner/" target="_blank" class="card-link text-info">
+                        <i class="fas fa-mouse-pointer text-secondary"></i>
+                        Website
+                      </a>
+                      <a href="https://github.com/ivanduranic/date-night-planner" target="_blank" class="card-link text-info">
+                        <i class="fab fa-github-square text-secondary"></i>
+                        GitHub
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col mb-4">
+                  <div class="card h-100">
+                    <div class="card-body">
+                      <a href="https://github.com/dazrin/weather-dashboard" target="_blank">
+                        <img src="Assets\Images\weatherdashboardpicture.png" class="card-img-top w-50 float-sm-left mr-4 btn mx-auto d-block  zoom-less" alt="Weather Dashboard App">
+                      </a>
+                      <h5 class="card-title">Weather Dashboard</h5>
+                      <p class="card-text">A weather dashboard web application that allows the user to search for a city and have it's five-day weather forecast be displayed to the screen. Past searches are stored within local storage and displayed on the side of the page. The site retrieves weather forecast data using the OpenWeather API; HTTP requests are implemented with use of AJAX, JSON to get data from third-party server-side API.</p>
+                    </div>
+                    <div class="card-footer bg-transparent">
+                      <a href="https://dazrin.github.io/weather-dashboard/" target="_blank" class="card-link text-info">
+                        <i class="fas fa-mouse-pointer text-secondary"></i>
+                        Website
+                      </a>
+                      <a href="https://github.com/dazrin/weather-dashboard" target="_blank" class="card-link text-info">
+                        <i class="fab fa-github-square text-secondary"></i>
+                        GitHub
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col mb-4">
+                  <div class="card h-100">
+                    <div class="card-body">
+                      <a href="https://dazrin.github.io/Day-Planner/" target="_blank">
+                        <img src="Assets\Images\dayplanner.png" class="card-img-top w-50 float-sm-left mr-4 btn mx-auto d-block  zoom-less" alt="Travel website">
+                      </a>
+                      <h5 class="card-title">Work Day Scheduler</h5>
+                      <p class="card-text">A simple work-day planner web application that allows a user to input text to remind themselves of tasks to do at each hour of the work day.
+                        Pressing the save button to the side will store the text data to the browser's local storage so it can be viewed at a later time.
+                       Built using HTML, CSS, and Javascript.</p>
+                    </div>
+                    <div class="card-footer bg-transparent">
+                      <a href="https://dazrin.github.io/Day-Planner/" target="_blank" class="card-link text-info">
+                        <i class="fas fa-mouse-pointer text-secondary"></i>
+                        Website
+                      </a>
+                      <a href="https://github.com/dazrin/Day-Planner" target="_blank" class="card-link text-info">
+                        <i class="fab fa-github-square text-secondary"></i>
+                        GitHub
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col mb-4">
+                  <div class="card h-100">
+                    <div class="card-body">
+                      <a href="https://dazrin.github.io/Password-Generator/" target="_blank">
+                        <img src="Assets\Images\password-gen.png" class="card-img-top w-50 float-sm-left mr-4 btn mx-auto d-block  zoom-less" alt="Day Planner">
+                      </a>
+                      <h5 class="card-title">Password Generator</h5>
+                      <p class="card-text">A simple password generator application that uses browser prompts to create a criteria used to generate a password.
+                         The password can then be copied to the clipboard with the click of a button. Built using HTML, CSS, and Javascript.</p>
+                    </div>
+                    <div class="card-footer bg-transparent">
+                      <a href="https://dazrin.github.io/Password-Generator/" target="_blank" class="card-link text-info">
+                        <i class="fas fa-mouse-pointer text-secondary"></i>
+                        Website
+                      </a>
+                      <a href="https://github.com/dazrin/Password-Generator" target="_blank" class="card-link text-info">
+                        <i class="fab fa-github-square text-secondary"></i>
+                        GitHub
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col mb-4">
+                  <div class="card h-100">
+                    <div class="card-body">
+                      <a href="https://dazrin.github.io/Adv-Pwd-Generator/" target="_blank">
+                      <img src="Assets\Images\adv-password-gen.png" class="card-img-top w-50 float-sm-left mr-4 btn mx-auto d-block zoom-less" alt="Shopper application">
+                      </a>
+                      <h5 class="card-title">Advanced Password Generator</h5>
+                      <p class="card-text">A password generator with a clean UI allowing a user to generate a password using various conditions. 
+                        Passwords are generated using arrays and character codes; built using HTML, CSS, and Javascript.</p>
+                    </div>
+                    <div class="card-footer bg-transparent">
+                      <a href="https://dazrin.github.io/Adv-Pwd-Generator/" target="_blank" class="card-link text-info">
+                        <i class="fas fa-mouse-pointer text-secondary"></i>
+                        Website
+                      </a>
+                      <a href="https://github.com/dazrin/Adv-Pwd-Generator" target="_blank" class="card-link text-info">
+                        <i class="fab fa-github-square text-secondary"></i>
+                        GitHub
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col mb-4">
+                  <div class="card h-100">
+                    <div class="card-body">
+                      <a href="https://dazrin.github.io/Coding-Quiz/" target="_blank">
+                        <img src="Assets\Images\coding-quiz.png" class="card-img-top w-50 float-sm-left mr-4 btn mx-auto d-block zoom-less" alt="Dive Calculator">
+                      </a>
+                      <h5 class="card-title">Coding Quiz</h5>
+                      <p class="card-text">A javascript coding quiz web application to test a user's knowledge of javascript. 
+                        Uses a timer and css variables to change the colors of the elements based on if an answer was incorrect or not. 
+                        Built using HTML, CSS, and Javascript.</p>
+                    </div>
+                    <div class="card-footer bg-transparent">
+                      <a href="https://dazrin.github.io/Coding-Quiz/" target="_blank" class="card-link text-info">
+                        <i class="fas fa-mouse-pointer text-secondary"></i>
+                        Website
+                      </a>
+                      <a href="https://github.com/dazrin/Coding-Quiz" target="_blank" class="card-link text-info">
+                        <i class="fab fa-github-square text-secondary"></i>
+                        GitHub
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>  
+            </div>
+          </div>
+        </div>   
+      </div>
+    </main> 
+    
+    <!-- Footer -->
+    <footer class="bg-dark text-white mt-4 fixed-bottom">
+      <div class="container py-1">
+          <div class="row align-items-center justify-content-center">
+              <div class="col-lg-12 col-md-12 text-center">
+                  <a href="https://github.com/dazrin"><i class="fa fa-github"></i></a>
+                  <a href="https://www.linkedin.com/in/dazrin-tioseco/"><i class="fa fa-linkedin"></i></a>
+                  <a href="https://twitter.com/dazrinDev"><i class="fa fa-twitter"></i></a>
+              </div>
+          </div>
+      </div>
+      </div>
+  </footer>
+
+    <!-- Scripts required to allow some Bootstrap components to work. -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
 </html>

@@ -51,3 +51,28 @@ h1{
   .fa-github:hover {
       color: darkslategrey;
   }
+
+  /* Zoom effect transition on hover */
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+}
+
+.zoom-less {
+    transition: transform .2s;
+}
+
+.zoom-less:hover {
+    transform: scale(1.2);
+}
+
+.zoom-xs {
+    transition: transform .2s;
+}
+
+.zoom-xs:hover {
+    transform: scale(1.05);
+}
