@@ -43,7 +43,7 @@ Sizes supported:
   -  You may navigate to different pages on the site by using the buttons on the Nav Bar found at the top of the page
   -  If you're viewing on a mobile device or a smaller screen, you will find a hamburger dropdown menu found on the top right of the page. Simply click it to reveal the buttons which navigate to each page.
   -  You can also click my name on the Nav Bar to navigate back to the About Me page
-  -  You will notice icons to navigate to my social media found on the bottom portfion of the page. Clicking any of the icons will bring you to my social media. Please follow if you are interested!
+  -  You will notice icons to navigate to my social media found on the bottom portion of the page. Clicking any of the icons will bring you to my social media. Please follow if you are interested!
   - You can use the contact me form to directly send me an email; simply enter required fields and press the submit button
 
 ## Credits
