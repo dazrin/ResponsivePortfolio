@@ -10,8 +10,10 @@
 * [Contributing](#Contributing)
 
 ## About
-This is a responsive portfolio website made using HTML, CSS, and Bootstrap 4.
+This is my responsive portfolio website featuring a description of myself, my personal projects, and a contact page that allows a user to send me an email.
+This site is built using HTML, CSS, and Bootstrap 4; because of this, the website is mobile-friendly and will adjust based on the screen size it's being displayed on.
   You can launch the website by clicking [here.](https://dazrin.github.io/ResponsivePortfolio/index.html)
+  > Website URL: https://dazrin.github.io/ResponsivePortfolio/index.html
   
 Sizes supported:
 * large - `> 980px wide`
